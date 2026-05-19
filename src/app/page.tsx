@@ -569,8 +569,8 @@ export default function Home() {
               
               <div className="absolute inset-0 lg:relative h-full w-full z-[-1] lg:z-0 bg-background">
                 <img
-                  src="/Gemini_Generated_Image_gs1vi0gs1vi0gs1v.jpeg"
-                  alt="Premium SUV"
+                  src="/image.png"
+                  alt="Волга-Авто"
                   className="w-full h-full object-cover lg:object-right object-center"
                 />
               </div>
