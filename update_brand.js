@@ -25,7 +25,7 @@ const allFiles = getAllFiles(projectDir).filter(file => file.endsWith('.tsx') ||
 const replacements = [
     { old: /Sapfyr/g, new: 'Волга-Авто' },
     { old: /\/photo_2026-04-21_12-30-15-removebg-preview\.png/g, new: '/image_2026-05-19_11-32-30.png' },
-    { old: /info@support-sapffir\.ru/g, new: 'info@volga-avto.ru' } // Assuming this is also changed, or leave it?
+    { old: /info@support-sapffir\.ru/g, new: 'volga.avto@ro.ru' } // Assuming this is also changed, or leave it?
 ];
 
 console.log('Starting brand replace script...');

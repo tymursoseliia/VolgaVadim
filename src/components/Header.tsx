@@ -57,7 +57,7 @@ export function Header() {
           </a>
 
           <a
-            href="mailto:info@volga-avto.ru"
+            href="mailto:volga.avto@ro.ru"
             className="w-10 h-10 rounded-full bg-gray-100 hover:bg-gray-200 border border-transparent flex items-center justify-center transition-all duration-300 hover:scale-110 hover:border-primary/50 group"
             title="Написать нам на почту"
           >

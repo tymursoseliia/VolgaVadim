@@ -63,13 +63,13 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="mailto:info@volga-avto.ru" className="flex items-start gap-3 group">
+                <a href="mailto:volga.avto@ro.ru" className="flex items-start gap-3 group">
                   <div className="w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center border border-transparent group-hover:border-primary/50 transition-colors shrink-0">
                     <Mail className="w-3.5 h-3.5 text-primary" />
                   </div>
                   <div>
                     <div className="text-gray-500 text-xs mb-0.5">Email</div>
-                    <div className="text-gray-700 group-hover:text-gray-900 text-sm font-medium transition-colors">info@volga-avto.ru</div>
+                    <div className="text-gray-700 group-hover:text-gray-900 text-sm font-medium transition-colors">volga.avto@ro.ru</div>
                   </div>
                 </a>
               </li>
