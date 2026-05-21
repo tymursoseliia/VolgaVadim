@@ -5,14 +5,10 @@ import { Footer } from '@/components/Footer';
 
 export default function TeamPage() {
   const teamMembers: { name: string; image: string }[] = [
-    { name: 'Алексей Бадмашкаев', image: '/team/aleksey_badmashkaev.jpg' },
-    { name: 'Ирина Степанова', image: '/team/irina_stepanova.jpg' },
-    { name: 'Артем Трошин', image: '/team/artem_troshin.jpg' },
     { name: 'Андрей Смирнов', image: '/team/andrey_smirnov.jpg' },
-    { name: 'Ольга Макарова', image: '/team/olga_makarova.jpg' },
     { name: 'Ковалёва Екатерина', image: '/team/kovaleva_ekaterina.jpg' },
     { name: 'Марьенков Аркадий', image: '/team/maryenkov_arkadiy.jpg' },
-    { name: 'Андрей Акимов', image: '/team/andrey_oleynik.jpg' },
+    { name: 'Андрей Акимов', image: '/team/andrey_akimov.jpg' },
     { name: 'Акимов Максим', image: '/team/akimov_maksim.jpg' },
     { name: 'Шечков Андрей', image: '/team/shechkov_andrey.jpg' },
     { name: 'Дмитрий Стебельков', image: '/team/dmitriy_stebelkov.jpg' },
@@ -22,17 +18,22 @@ export default function TeamPage() {
     { name: 'Андрей Рублев', image: '/team/andrey_rublev.jpg' },
     { name: 'Юлия Орлова', image: '/team/yuliya_orlova.jpg' },
     { name: 'Юлия Смирнова', image: '/team/yuliya_smirnova.jpg' },
-    { name: 'Яна Зайцева', image: '/team/yana_zaytseva.jpg' },
     { name: 'Никита Морозов', image: '/team/nikita_morozov.jpg' },
     { name: 'Романов Руслан', image: '/team/romanov_ruslan.jpg' },
     { name: 'Андрей Мальков', image: '/team/andrey_malkov.jpg' },
+    { name: 'Горохов Давид', image: '/team/gorokhov_david.jpg' },
     { name: 'Краснова Татьяна', image: '/team/krasnova_tatyana.jpg' },
     { name: 'Гаврилов Денис', image: '/team/gavrilov_denis.jpg' },
     { name: 'Коршунов Антон', image: '/team/korshunov_anton.jpg' },
-    { name: 'Горохов Давид', image: '/team/gorokhov_david.jpg' },
-    { name: 'Забара Максим Дмитревич', image: '/team/zabara_maksim.jpg' },
-    { name: 'Корев Александр Сергеевич', image: '/team/korev_aleksandr.jpg' },
-    { name: 'Власова Анастасия Олеговна', image: '/team/vlasova_anastasiya.jpg' }
+    { name: 'Медведев Александр', image: '/team/medvedev_aleksandr.jpg' },
+    { name: 'Забара Максим', image: '/team/zabara_maksim.jpg' },
+    { name: 'Корев Александр', image: '/team/korev_aleksandr.jpg' },
+    { name: 'Алексей Бадмашкаев', image: '/team/aleksey_badmashkaev.jpg' },
+    { name: 'Ирина Степанова', image: '/team/irina_stepanova.jpg' },
+    { name: 'Артем Трошин', image: '/team/artem_troshin.jpg' },
+    { name: 'Андрейцева Яна', image: '/team/andreytseva_yana.jpg' },
+    { name: 'Виктор Долгоруков', image: '/team/viktor_dolgorukov.jpg' },
+    { name: 'Мария Лебедева', image: '/team/mariya_lebedeva.jpg' }
   ];
 
   return (
