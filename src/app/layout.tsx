@@ -53,6 +53,9 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  other: {
+    "mailru-domain": "EjWgyxpdvkaREM5R",
+  },
 };
 
 export default function RootLayout({
