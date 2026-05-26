@@ -36,9 +36,9 @@ export const metadata: Metadata = {
     locale: "ru_RU",
     images: [
       {
-        url: "https://sapfyr.netlify.app/Gemini_Generated_Image_gs1vi0gs1vi0gs1v.jpeg",
-        width: 1200,
-        height: 630,
+        url: "/image.png",
+        width: 1280,
+        height: 853,
         alt: "Волга-Авто - Автомобили из Европы",
       },
     ],
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Волга-Авто - Авто из Европы с доставкой по РФ",
     description: "Автомобили из Европы под ключ. Подбор, доставка, растаможка. Более 9 лет на рынке, 1000+ довольных клиентов.",
-    images: ["https://sapfyr.netlify.app/Gemini_Generated_Image_gs1vi0gs1vi0gs1v.jpeg"],
+    images: ["/image.png"],
   },
   robots: {
     index: true,
