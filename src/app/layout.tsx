@@ -18,6 +18,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://volga-autoprigon.ru"),
   title: "Волга-Авто - Авто из Европы с доставкой по РФ",
   description: "Автомобили из Европы под ключ. Подбор, доставка, растаможка. Более 9 лет на рынке, 1000+ довольных клиентов. Экономия до 30%.",
   keywords: "авто из европы, автомобили из европы, пригон авто, растаможка авто, Волга-Авто",
@@ -30,13 +31,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Волга-Авто - Авто из Европы с доставкой по РФ",
     description: "Автомобили из Европы под ключ. Подбор, доставка, растаможка. Более 9 лет на рынке, 1000+ довольных клиентов. Экономия до 30%.",
-    url: "https://lts-prigon.ru",
+    url: "https://volga-autoprigon.ru",
     siteName: "Волга-Авто - Авто из Европы",
     type: "website",
     locale: "ru_RU",
     images: [
       {
-        url: "/image.png",
+        url: "https://volga-autoprigon.ru/image.png",
         width: 1280,
         height: 853,
         alt: "Волга-Авто - Автомобили из Европы",
@@ -47,7 +48,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Волга-Авто - Авто из Европы с доставкой по РФ",
     description: "Автомобили из Европы под ключ. Подбор, доставка, растаможка. Более 9 лет на рынке, 1000+ довольных клиентов.",
-    images: ["/image.png"],
+    images: ["https://volga-autoprigon.ru/image.png"],
   },
   robots: {
     index: true,
