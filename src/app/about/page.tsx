@@ -84,30 +84,16 @@ export default function AboutPage() {
       {/* Company Description Section */}
       <section className="bg-background pb-16 pt-8">
         <div className="max-w-screen-2xl mx-auto px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-            {/* Left side - Text */}
-            <div className="text-gray-900 space-y-4">
-              <p className="text-base leading-relaxed">
-                <strong>«Волга-Авто»</strong> — команда специалистов с опытом в подборе и импорте автомобилей более 9 лет.
-              </p>
-              <p className="text-base leading-relaxed">
-                Мы работаем напрямую с европейскими дилерами и проверенными продавцами, чтобы вы получали честный, прозрачный и выгодный вариант без переплат перекупам.
-              </p>
-              <p className="text-base leading-relaxed">
-                Для нас важно, чтобы клиент понимал каждый этап сделки и был уверен в своём выборе — именно поэтому мы предлагаем полную прозрачность на каждом этапе работы.
-              </p>
-            </div>
-
-            {/* Right side - Video */}
-            <div className="relative aspect-video rounded-lg overflow-hidden bg-gray-100 border border-gray-200 flex items-center justify-center">
-              <iframe
-                src="https://rutube.ru/play/embed/06f0a5d2b8fc87d3c4cd5a71c2a03bbe/?p=87We99NEv-5J9_Zw2qko2Q"
-                title="Видео о компании Волга-Авто"
-                className="w-full h-full"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
-            </div>
+          <div className="max-w-3xl mx-auto text-center text-gray-900 space-y-6">
+            <p className="text-lg leading-relaxed">
+              <strong>«Волга-Авто»</strong> — команда специалистов с опытом в подборе и импорте автомобилей более 9 лет.
+            </p>
+            <p className="text-lg leading-relaxed text-gray-600">
+              Мы работаем напрямую с европейскими дилерами и проверенными продавцами, чтобы вы получали честный, прозрачный и выгодный вариант без переплат перекупам.
+            </p>
+            <p className="text-lg leading-relaxed text-gray-600">
+              Для нас важно, чтобы клиент понимал каждый этап сделки и был уверен в своём выборе — именно поэтому мы предлагаем полную прозрачность на каждом этапе работы.
+            </p>
           </div>
         </div>
       </section>
